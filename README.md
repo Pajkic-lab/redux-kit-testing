@@ -1,2 +1,2 @@
 # redux-kit-testing
-react redux-kit node express postgresql ( PERN app )
+react redux-kit node express postgresql  ( PERN app )
