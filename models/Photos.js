@@ -12,3 +12,11 @@ const Photos = db.define('photos', {
 })
 
 module.exports = Photos
+
+/*
+CREATE TABLE photos (
+	id serial PRIMARY KEY NOT NULL,
+	created_by integer references users(id) NOT NULL,
+	photo VARCHAR (200) NOT NULL
+);
+*/
